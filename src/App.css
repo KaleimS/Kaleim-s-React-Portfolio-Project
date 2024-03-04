@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: Oswald ;
+  src: url(../public/Oswald-VariableFont_wght.ttf);
+}
+
+.oswald {
+  font-family: Oswald, sans-serif;
+}

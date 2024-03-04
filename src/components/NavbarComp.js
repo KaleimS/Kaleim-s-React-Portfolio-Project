@@ -1,36 +1,61 @@
-import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import logo from "../img/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import "./NavbarComp.css";
 
-export default class NavbarComp extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar expand="lg" className="bg-body-tertiary">
-          <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      </div>
-    );
-  }
+function NavbarComp() {
+  return (
+    <div className="">
+      <Navbar expand="lg" className="bg-body-tertiary fs-4">
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="ps-3 d-flex align-items-center"
+        >
+          <img
+            src={logo}
+            alt="Logo"
+            width="70"
+            height="70"
+            className="d-inline-block align-top me-2"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto pe-5 nav-underline">
+            <Link to="/" className="nav-link ">
+              Home
+            </Link>
+            <Link to="/projects" className="nav-link">
+              Projects
+            </Link>
+            <Link to="/contact" className="nav-link">
+              Contact
+            </Link>
+          </Nav>
+          <Nav className="d-flex align-items-center pe-3">
+            <Link
+              to="https://github.com/KaleimS"
+              target="_blank"
+              className="nav-link me-4"
+            >
+              <FontAwesomeIcon icon={faGithub} size="lg" />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/kaleim-saunders-b648b82a0/"
+              target="_blank"
+              className="nav-link me-4"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+            </Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
+  );
 }
+
+export default NavbarComp;

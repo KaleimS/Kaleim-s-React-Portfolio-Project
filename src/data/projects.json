@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "Project 1",
+    "deployedLink": "https://example.com",
+    "githubLink": "https://github.com/example/project1",
+    "screenshot": "path/to/screenshot.gif"
+  }
+]
