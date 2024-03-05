@@ -8,10 +8,11 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  The portfolio is not deployed yet but pictures will be provided for now.
-  
+  The portfolio is not deployed yet but pictures will be provided for now. <br/>
+  ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/home-page.PNG) <br/>
+  ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/contact.PNG)
   ## Usage 
-  To use this app you will have to, NodeJS, ReactJS, VSCODE
+  To use this app you will have to use NodeJS, ReactJS and VSCODE
   ## Credits
    I used a template for the contact me section located here: https://colorlib.com/wp/template/contact-form-02/  I used this template and then added some custom styling and designed it to be more unique.
   ## License
