@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.portrait-img {
+   border-radius: 100%;
+}
+
+.hero {
+    color: white;
+}
+
+.cv:hover {
+    color: white !important;
+}
