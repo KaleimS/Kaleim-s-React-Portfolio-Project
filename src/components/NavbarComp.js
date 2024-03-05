@@ -9,7 +9,7 @@ import "./NavbarComp.css";
 function NavbarComp() {
   return (
     <div className="">
-      <Navbar expand="lg" className="bg-body-tertiary fs-4">
+      <Navbar expand="lg" className="bg-body-tertiary fs-4 fixed-top nav-border">
         <Navbar.Brand
           as={Link}
           to="/"
@@ -26,13 +26,13 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto pe-5 nav-underline">
-            <Link to="/" className="nav-link ">
+            <Link to="/" className="nav-link hover-effect">
               Home
             </Link>
-            <Link to="/projects" className="nav-link">
+            <Link to="/projects" className="nav-link hover-effect">
               Projects
             </Link>
-            <Link to="/contact" className="nav-link">
+            <Link to="/contact" className="nav-link hover-effect">
               Contact
             </Link>
           </Nav>
@@ -40,14 +40,14 @@ function NavbarComp() {
             <Link
               to="https://github.com/KaleimS"
               target="_blank"
-              className="nav-link me-4"
+              className="nav-link me-4 hover-effect"
             >
               <FontAwesomeIcon icon={faGithub} size="lg" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/kaleim-saunders-b648b82a0/"
               target="_blank"
-              className="nav-link me-4"
+              className="nav-link me-4 hover-effect"
             >
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </Link>
