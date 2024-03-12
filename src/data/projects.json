@@ -1,9 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "deployedLink": "https://example.com",
-    "githubLink": "https://github.com/example/project1",
-    "screenshot": "path/to/screenshot.gif"
+    "title": "Healthy Bites",
+    "deployedLink": "https://frankrl86.github.io/FEBC_Project01/",
+    "githubLink": "https://github.com/frankrl86/FEBC_Project01",
+    "screenshot": "./img/HealthyBites.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap"
+  },
+  {
+    "id": 2,
+    "title": "Cool Password Generator",
+    "deployedLink": "https://kaleims.github.io/Cool-Password-Generator/",
+    "githubLink": "https://github.com/KaleimS/Cool-Password-Generator",
+    "screenshot": "./img/Cool-Password-Generator.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap"
+  },
+  {
+    "id": 3,
+    "title": "Javascript Code Quiz",
+    "deployedLink": "https://kaleims.github.io/Code-Quiz/",
+    "githubLink": "https://github.com/KaleimS/Code-Quiz",
+    "screenshot": "./img/code-quiz.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap"
+  },
+  {
+    "id": 4,
+    "title": "Professional Readme Generator",
+    "deployedLink": "https://github.com/KaleimS/Professional-README-Generator (Read the readme in the repository for more information)",
+    "githubLink": "https://github.com/KaleimS/Professional-README-Generator",
+    "screenshot": "./img/Readme-Generator.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap, ReactJS, NodeJS"
+  },
+  {
+    "id": 5,
+    "title": "Team Role Generator",
+    "deployedLink": "https://github.com/KaleimS/Team-Role-Generator",
+    "githubLink": "https://github.com/KaleimS/Team-Role-Generator",
+    "screenshot": "./img/Team-Role-Generator.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap, ReactJS, NodeJS"
+  },
+  {
+    "id": 6,
+    "title": "Bootstrap Portfolio",
+    "deployedLink": "https://kaleims.github.io/Bootstrap-Portfolio/",
+    "githubLink": "https://github.com/KaleimS/Bootstrap-Portfolio",
+    "screenshot": "./img/Bootstrap-Portfolio.PNG",
+    "skills": "Javascript, HTML, CSS, Bootstrap"
   }
 ]

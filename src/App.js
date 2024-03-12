@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./components/Home";
 import Project from "./components/Project";
-import ProjectGallery from "./components/ProjectGallery";
+import SingleProject from "./components/SingleProject.js";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/projects" element={<ProjectGallery />} />
-          <Route path="/projects/:id" element={<Project />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/projects/:projectId" element={<SingleProject />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
