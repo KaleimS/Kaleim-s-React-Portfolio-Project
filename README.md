@@ -9,8 +9,10 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  The portfolio is not deployed yet but pictures will be provided for now. <br/>
+  Live App: https://kaleims-react-portfolio.netlify.app/ <br/>
   ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/home-page.PNG) <br/>
+  ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/Projects.PNG)
+  ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/Project.PNG)
   ![alt text](https://github.com/KaleimS/Kaleim-s-React-Portfolio-Project/blob/main/public/contact.PNG)
   ## Usage 
   To use this app you will have to use NodeJS, ReactJS and VSCODE
