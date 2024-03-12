@@ -15,7 +15,6 @@ function Home() {
               <div className="portrait-img text-center">
                 <img
                   src={portrait}
-                  alt="image"
                   style={{ maxWidth: "100%", height: "auto", width: "400px" }}
                   className="rounded-circle img-fluid border border-black border-3"
                 />
