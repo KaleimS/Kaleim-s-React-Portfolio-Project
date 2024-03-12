@@ -9,7 +9,10 @@ import "./NavbarComp.css";
 function NavbarComp() {
   return (
     <div className="">
-      <Navbar expand="lg" className="bg-body-tertiary fs-4 fixed-top nav-border">
+      <Navbar
+        expand="lg"
+        className="bg-body-tertiary fs-4 fixed-top nav-border"
+      >
         <Navbar.Brand
           as={Link}
           to="/"

@@ -2,7 +2,6 @@ import React from "react";
 import NavbarComp from "./NavbarComp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 import "../components/Contact.css";
 import { FaPhone } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -108,7 +107,7 @@ function Contact() {
                       </p>
                       <div className="dbox w-100 d-flex align-items-center">
                         <div className="icon d-flex align-items-center justify-content-center">
-                          <FaPhone/>
+                          <FaPhone />
                         </div>
                         <div className="text pl-3">
                           <p>
@@ -119,7 +118,7 @@ function Contact() {
                       </div>
                       <div className="dbox w-100 d-flex align-items-center">
                         <div className="icon d-flex align-items-center justify-content-center">
-                          <SiGmail/>
+                          <SiGmail />
                         </div>
                         <div className="text pl-3">
                           <p>
@@ -132,21 +131,35 @@ function Contact() {
                       </div>
                       <div className="dbox w-100 d-flex align-items-center">
                         <div className="icon d-flex align-items-center justify-content-center">
-                          <FontAwesomeIcon icon={faLinkedin}/>
+                          <FontAwesomeIcon icon={faLinkedin} />
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/kaleim-saunders-b648b82a0/" target="_blank">Click Here</a>
+                            <span>LinkedIn:</span>{" "}
+                            <a
+                              href="https://www.linkedin.com/in/kaleim-saunders-b648b82a0/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Click Here
+                            </a>
                           </p>
                         </div>
                       </div>
                       <div className="dbox w-100 d-flex align-items-center">
                         <div className="icon d-flex align-items-center justify-content-center">
-                          <FontAwesomeIcon icon={faGithub}/>
+                          <FontAwesomeIcon icon={faGithub} />
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span>Github:</span> <a href="https://github.com/KaleimS" target="_blank">Click Here</a>
+                            <span>Github:</span>{" "}
+                            <a
+                              href="https://github.com/KaleimS"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              Click Here
+                            </a>
                           </p>
                         </div>
                       </div>
